@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fresh Editorial Blog</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="logo">MyBlog</div>
+    <nav>
+      <a href="#" onclick="filterCategory('All')">Home</a>
+      <a href="#" onclick="filterCategory('Travel')">Travel</a>
+      <a href="#" onclick="filterCategory('Food')">Food</a>
+      <a href="#" onclick="filterCategory('Tech')">Tech</a>
+    </nav>
+    <input type="text" id="searchInput" placeholder="Search...">
+    <button id="toggleDark">🌙</button>
+  </header>
+
+  <main>
+    <section class="featured">
+      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Featured">
+      <div class="overlay">
+        <h1>Discover the World: Top Travel Spots</h1>
+        <p>Explore our hand-picked destinations for your next adventure.</p>
+      </div>
+    </section>
+
+    <section class="articles">
+      <article class="card" data-category="Travel">
+        <img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98" alt="Travel">
+        <h2>"Wanderlust: 7 Hidden Gems Around the World"</h2>
+        <h4><i>Escape the crowds and explore secret spots every traveler dreams of.</i></h4>
+        <p>By Jane Doe • Travel • July 2025</p>
+      </article>
+      <article class="card" data-category="Food">
+        <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2" alt="Food">
+        <h2>"The Secret to Perfect Sourdough at Home"</h2>
+        <h4><i>Master this rustic bread with simple tips from top bakers.</i></h4>
+        <p>By John Smith • Food • June 2025</p>
+      </article>
+       <article class="card" data-category="Travel">
+        <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="Travel">
+        <h2>"Top Beach Destinations for 2025"</h2>
+        <h4><i>Sun, sand, and serenity: your guide to the best coastal retreats.</i></h4>
+        <p>By Jane Doe • Travel • July 2025</p>
+      </article>
+        <article class="card" data-category="Food">
+        <img src="https://images.unsplash.com/photo-1525755662778-989d0524087e" alt="Food">
+        <h2>"Healthy Desserts That Actually Taste Amazing"</h2>
+        <h4><i>Guilt-free treats to satisfy your sweet tooth.</i></h4>
+        <p>By John Smith • Food • June 2025</p>
+      </article>
+      <article class="card" data-category="Travel">
+        <img src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff" alt="Travel">
+        <h2>"Why Solo Travel Will Change Your Life"</h2>
+        <h4><i>Stepping out alone might just be the best adventure yet.</i></h4>
+        <p>By Jane Doe • Travel • July 2025</p>
+      </article>
+      <article class="card" data-category="Food">
+        <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2" alt="Food">
+        <h2>"5 Easy Plant-Based Meals for Busy Nights"</h2>
+        <h4><i>Wholesome recipes you can whip up in under 30 minutes.</i></h4>
+        <p>By John Smith • Food • June 2025</p>
+      </article>
+       <article class="card" data-category="Travel">
+        <img src="https://images.unsplash.com/photo-1518684079-3c830dcef090" alt="Travel">
+        <h2>10 Stunning Summer Destinations</h2>
+        <h4><i>How to see it all without emptying your wallet.</i></h4>
+        <p>By Jane Doe • Travel • July 2025</p>
+      </article>
+        <article class="card" data-category="Food">
+        <img src="https://images.unsplash.com/photo-1525755662778-989d0524087e" alt="Food">
+        <h2>"Best Street Foods You Must Try"</h2>
+        <h4><i>Explore vibrant flavors from bustling markets worldwide.</i></h4>
+        <p>By John Smith • Food • June 2025</p>
+      </article>
+       <article class="card" data-category="Tech">
+        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" alt="Tech">
+        <h2>"AI in Everyday Life: Are You Ready?"</h2>
+        <h4><i>How artificial intelligence is quietly shaping your day.</i></h4>
+        <p>By Sara Lee • Tech • May 2025</p>
+      </article>
+       <article class="card" data-category="Tech">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Tech">
+        <h2>"Is Your Data Safe? Cybersecurity Basics"</h2>
+        <h4><i>Simple steps to protect your digital life.</i></h4>
+        <p>By Sara Lee • Tech • May 2025</p>
+      </article>
+      </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MyBlog. Designed with ❤️.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
